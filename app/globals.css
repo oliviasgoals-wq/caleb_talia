@@ -1,0 +1,158 @@
+@import "tailwindcss";
+
+body {
+  font-family: var(--font-playfair), sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-family: var(--font-birthstone), sans-serif !important;
+}
+
+/* body */
+.paper-grain-dark {
+  background-color: #17320b;
+  background-image:
+    radial-gradient(circle, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+    radial-gradient(circle, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 4px 4px, 7px 7px;
+  background-position: 0 0, 2px 3px;
+}
+
+.paper-grain-dark-too {
+  background-color: #0b1807;
+  background-image:
+    radial-gradient(circle, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+    radial-gradient(circle, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+  background-size: 4px 4px, 7px 7px;
+  background-position: 0 0, 2px 3px;
+}
+
+.paper-grain-light {
+background-color: #ffffff;
+  background-image:
+    radial-gradient(circle, rgba(0,0,0,0.15) 1px, transparent 1px),
+    radial-gradient(circle, rgba(0,0,0,0.1) 1px, transparent 1px);
+  background-size: 4px 4px, 7px 7px;
+  background-position: 0 0, 2px 3px;
+}
+
+.grain-stripes {
+  background-color: #0b1807;
+  background-image:
+    radial-gradient(circle, rgba(255,255,255,0.1) 0.6px, transparent 0.6px),
+    radial-gradient(circle, rgba(255,255,255,0.1) 0.6px, transparent 0.6px),
+    radial-gradient(circle, rgba(0,0,0,0.15) 0.6px, transparent 0.6px),
+    radial-gradient(circle, rgba(0,0,0,0.1) 0.6px, transparent 0.6px),
+    repeating-linear-gradient(
+      to right,
+      #0b1807 0px,
+      #0b1807 12px,
+      #ffffff 12px,
+      #ffffff 24px
+    );
+  background-size:
+    4px 4px,
+    7px 7px,
+    4px 4px,
+    7px 7px,
+    100% 100%;
+  background-position:
+    0 0,
+    2px 3px,
+    0 0,
+    2px 3px,
+    0 0;
+}
+
+.font-fleur {
+  font-family: var(--font-fleur-de-leah), sans-serif !important;
+}
+
+.font-birthstone {
+  font-family: var(--font-birthstone), sans-serif !important;
+}
+
+.font-luxurious{
+  font-family: var(--font-luxurious-script), sans-serif !important;
+}
+
+.font-ballet {
+  font-family: var(--font-ballet), sans-serif !important;
+}
+
+.font-great-vibes {
+  font-family: var(--font-great-vibes), cursive !important;
+}
+
+.font-tangerine {
+  font-family: var(--font-tangerine), cursive !important;
+}
+
+/* Add to your global CSS file */
+@keyframes float {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    25% {
+        transform: translateY(-4px) rotate(0.5deg);
+    }
+    50% {
+        transform: translateY(2px) rotate(-0.5deg);
+    }
+    75% {
+        transform: translateY(-2px) rotate(0.3deg);
+    }
+    100% {
+        transform: translateY(0px) rotate(0deg);
+    }
+}
+
+@keyframes gentleWave {
+    0% {
+        transform: translateY(0px) translateX(0px);
+    }
+    33% {
+        transform: translateY(-4px) translateX(3px);
+    }
+    66% {
+        transform: translateY(2px) translateX(-3px);
+    }
+    100% {
+        transform: translateY(0px) translateX(0px);
+    }
+}
+
+@keyframes smoothWave {
+    0% {
+        transform: translateY(0px) rotate(0deg);
+    }
+    20% {
+        transform: translateY(-5px) rotate(1deg);
+    }
+    40% {
+        transform: translateY(3px) rotate(-1deg);
+    }
+    60% {
+        transform: translateY(-3px) rotate(0.5deg);
+    }
+    80% {
+        transform: translateY(2px) rotate(-0.5deg);
+    }
+    100% {
+        transform: translateY(0px) rotate(0deg);
+    }
+}
+
+.animate-float {
+    animation: float 3s ease-in-out infinite;
+}
+
+.animate-gentle-wave {
+    animation: gentleWave 4s ease-in-out infinite;
+}
+
+.animate-smooth-wave {
+    animation: smoothWave 3.5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
