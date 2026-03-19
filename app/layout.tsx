@@ -76,9 +76,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-      </head>
       <body
         // Apply all font variables to the body, but set a default font
         className={`${playfair.variable} ${fleur.variable} ${ballet.variable} ${luxurious.variable} ${montserrat.variable} ${greatVibes.variable} ${tangerine.variable} ${birthstone.variable} font-sans`}
