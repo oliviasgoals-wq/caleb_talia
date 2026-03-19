@@ -51,6 +51,22 @@ const tangerine = Tangerine({
 export const metadata: Metadata = {
   title: "Caleb & Talia say I do",
   description: "Caleb and Talia Wedding Site",
+  openGraph: {
+    title: 'Caleb and Talia Say I do',
+    description: 'Caleb and Talia wedding site',
+    url: 'htthttps://caleb-talia.vercel.app/',
+    siteName: 'Caleb & Talia',
+    images: [
+      {
+        url: '/footer_light.png', // Must be an absolute URL
+        width: 1200,
+        height: 630,
+        alt: 'C&T',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({
