@@ -14,13 +14,26 @@ export default function Story(){
                         className="h-auto w-full"/>
                     </div>
                     <div className="max-w-3xl mx-auto my-auto">
-                        <p className="mt-10 px-7 text-md text-center text-white font-ephesis"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. 
+                        <p className="mt-10 px-7 text-md text-center text-white font-ephesis"> From the moment our paths crossed, our story began in the most unexpected and beautiful way—thanks to a simple connection that turned into something life-changing. 
                         </p>
 
-                        <p className="mt-10 px-7 text-md text-center text-white font-ephesis"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. 
+                        <p className="mt-10 px-7 text-md text-center text-white font-ephesis"> What started as friendship quickly grew into a love filled with laughter, support, and countless unforgettable moments. Over the past eight years, we’ve built a relationship rooted in trust, understanding, and choosing each other every single day.
                         </p>
 
-                        <p className="mt-10 px-7 text-md text-center text-white font-ephesis">  In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. 
+                        <p className="mt-10 px-7 text-md text-center text-white font-ephesis"> 
+                        Together, we’ve celebrated the highs, worked through the lows, and grown not only as individuals but as partners. We’ve learned that love isn’t just in the big gestures, but in the quiet, everyday moments—the inside jokes, the late-night conversations, and simply being there for one another.
+                        </p>
+
+                        <p className="mt-10 px-7 text-md text-center text-white font-ephesis"> 
+                        One of our most cherished memories will always be the day we made things official—a moment filled with thought, love, and intention that perfectly reflects the kind of relationship we’ve built.    
+                        </p>
+
+                        <p className="mt-10 px-7 text-md text-center text-white font-ephesis"> 
+                        Through it all, we have become each other’s safe place, best friend, and greatest support system. Our journey hasn’t just been about where we’ve been, but about how we’ve grown—together.
+                        </p>
+
+                        <p className="mt-10 px-7 text-md text-center text-white font-ephesis"> 
+                        This is our story—one of love, friendship, and a partnership that continues to grow stronger with time
                         </p>
 
                         <div className=" mt-10 ">
